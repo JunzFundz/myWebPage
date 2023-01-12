@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  width:100%;
+  max-width:none;
+  padding:0;
+    font-family: sans-serif;
+    /* background-image: url(../img/mypic.gif);
+    background-size: cover; */
+  }
+  #bg{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    opacity: 0.8;
+  }
+
+  .btn1 ,.btn2{
+    border-radius: 20px;
+    background: rgba(246,246,246,0.35);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+
+  }
+  .btn1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+
+  }
+  .btn2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+  }
+  .btn1{
+    margin-left: 100px;
+  }
+  .login1 button:hover{
+    transition: 0.3s ease-in-out;
+    color: #ffffff;
+background: #24e06f;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+  }
+  .signup1 button:hover{
+    transition: 0.3s ease-in-out;
+    color: #ffffff;
+background: #24e06f;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+  }
+
+  .newList ul a {
+    text-decoration: none;
+    display: inline-flex;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  #logo{
+    gap: 1em;
+    font-size: 50px;
+    font-family: monospace;
+}
+  .a2 img{
+    margin-top: 20px;
+    float: right;
+    width: 70px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    margin-right: 30px;
+    border-radius: 50%;
+  }
+  .a2 img:hover{
+    transition: 0.5s ease-in-out;
+    mix-blend-mode: exclusion;
+    background-color: rgb(189, 127, 255);
+    border-radius: 50%;
+  }
+  h2 ,img, .dropdown{
+    display: inline-block;
+  }
+  .dropdown{
+    padding-left: 30px;
+  }
+  .carousel-item img{
+
+    height: 50vh;
+    margin-top: 80px;
+    aspect-ratio: 3/2;
+  }
+  .a2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    line-height: 80px;
+  }
+  .dropdown-menu li a{
+    font-size: 12px;
+  }
+  .ae p{
+    margin-top: 100px;
+    font-size: 80px;
+    text-align: center;
+    font-family: myFirstFont;
+   src: url(sansation_light.woff);
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 0;
+}
+.af h2 a{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+.af h2{
+  float: left;
+  margin-left: 40px;
+  padding-top: 50px;
+}

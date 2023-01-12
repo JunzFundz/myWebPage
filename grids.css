@@ -1,0 +1,78 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    box-sizing: border-box;
+    height: 10px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    max-width:none;
+}
+.header{
+    grid-column:1/3;
+    height: 13vh;
+    /* border:  1px solid black; */
+}
+
+.a1{
+    padding-top: 80px;
+    grid-column:3/6;
+    line-height: 20px;
+    text-align: center;
+    /* border:  1px solid black; */
+    gap: 1em;
+
+}
+.a2{
+    background-color: rgb(255, 255, 255);
+    grid-column:1/8;
+    line-height: 60px;
+    font-size: 20px;
+    /* border:  1px solid black; */
+    gap: 1em;
+    height: 13vh;
+}
+.ae{
+    grid-column:1/3;
+    /* border:  1px solid black; */
+    gap: 1em;
+}
+.a3{
+    grid-column:4/7;
+    height: 70vh;
+    text-align: center;
+    /* border:  1px solid black; */
+    gap: 1em;
+}
+/* .a4{
+    grid-column:1/8;
+    height: 13vh;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    border:  1px solid black;
+    gap: 1em;
+    padding-right: 20px;
+    margin-top: 30px;
+} */
+
+
+.af{
+    grid-column:1/6;
+    text-align: center;
+    /* border:  1px solid black; */
+    gap: 1em;
+}
+.signup1{
+    grid-column:6/7;
+    height: 13vh;
+    font-size: 20px;
+    /* border:  1px solid black; */
+}
+.login1{
+    grid-column:7/8;
+    height: 13vh;
+    font-size: 20px;
+    /* border:  1px solid black; */
+}
